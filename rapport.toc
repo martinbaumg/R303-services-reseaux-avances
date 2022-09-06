@@ -1,0 +1,4 @@
+\babel@toc {french}{}\relax 
+\contentsline {section}{\numberline {1}CM 1 - 6 septembre 2022}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Rappels}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Les DNS}{3}{subsection.1.2}%
