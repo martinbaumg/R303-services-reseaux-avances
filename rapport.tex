@@ -43,6 +43,7 @@
 \end{titlepage}
 \newpage
 \tableofcontents
+\listoffigures
 \newpage
 \section{CM 1 - 6 septembre 2022}
 \subsection{Rappels}
@@ -72,10 +73,11 @@ d'identifier les hôtes grâce à un nom. \\
 Le système DNS est souvent utilisé en amont des protocoles applicatifs comme 
 HTTP ou les mails.\\
 
-\begin{figure}
+\begin{figure}[H]
+\centering
 \begin{tikzpicture}
     \begin{axis}[	grid= major ,
-            width=0.8\textwidth ,
+            width=0.7\textwidth ,
             xlabel = {Année} ,
             ylabel = {Nombre (en milliard)} ,
             xmin = 1991, xmax = 2022,
@@ -89,6 +91,21 @@ HTTP ou les mails.\\
 \end{tikzpicture}
 \caption{Nombre de site web et d'internautes en fonction des années}
 \end{figure}
+    
+    \subsubsection{Fonctionnement du DNS}
+    Le DNS gère la distribution du trafic : distribue les informations
+    reçus sur le site voulu sur les 2 adresses IP du site.
+    Un serveur racine du DNS est un serveur DNS qui répond aux requêtes qui concernent les noms de
+    domaines du premier niveau et qui les redirige vers le serveur DNS de premier niveau concerné.
+    Bien qu'il puisse exister d'autres hiérarchies de systèmes de noms de domaine (DNS) avec des serveurs
+    racine alternantifs, "serveur racine du DNS" est généralement utilisé pour 
+    désigner l'un des serveurs racine du DNS d'internet gégé sous l'autorité de L'ICANN.
+\newpage 
+\subsection{Créer des raccourcis (alias)}
+Un alias est un raccourcis dans l'URL d'un site web, on peut donc passer de \\www.iutc078.uha.fr.iut.colmar.fr
+à www.iutc078.uha.fr. La version complète se nomme version canonique.
 
+\subsubsection{Petit exercice pour vendredi prochain}
+Comment on gère un cache
 
 \end{document}

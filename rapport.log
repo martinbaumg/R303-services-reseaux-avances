@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.15)  6 SEP 2022 09:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.15)  6 SEP 2022 09:58
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -751,48 +751,57 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write7
 \openout7 = `rapport.toc'.
 
+ (./rapport.lof)
+\tf@lof=\write8
+\openout8 = `rapport.lof'.
+
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.46 \newpage
+l.47 \newpage
               [1]
-Underfull \hbox (badness 10000) in paragraph at lines 49--53
+Underfull \hbox (badness 10000) in paragraph at lines 50--54
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--59
+Underfull \hbox (badness 10000) in paragraph at lines 55--60
 
  []
 
-<img/osi.png, id=39, 1021.8175pt x 766.865pt>
+<img/osi.png, id=59, 1021.8175pt x 766.865pt>
 File: img/osi.png Graphic file (type png)
 <use img/osi.png>
-Package pdftex.def Info: img/osi.png  used on input line 62.
+Package pdftex.def Info: img/osi.png  used on input line 63.
 (pdftex.def)             Requested size: 376.42575pt x 282.49527pt.
 [2 <./img/osi.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 68--74
+Underfull \hbox (badness 10000) in paragraph at lines 69--75
 
  []
 
-[3] (./rapport.aux)
+[3]
+Overfull \hbox (17.00792pt too wide) in paragraph at lines 105--107
+\T1/cmr/m/n/12 www.iutc078.uha.fr.iut.colmar.fr à www.iutc078.uha.fr. La ver-sion com-plète se nomme
+ []
+
+[4] (./rapport.aux)
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: EDD7E52D0DFE8DBCBB676630DF52AD27;360.
+(rerunfilecheck)             Checksum: BD4FD79FF99AB5E47AA969BE8F7BB77B;1017.
  ) 
 Here is how much of TeX's memory you used:
- 37598 strings out of 478268
- 863447 string characters out of 5846347
- 1264129 words of memory out of 5000000
- 55237 multiletter control sequences out of 15000+600000
+ 37610 strings out of 478268
+ 863589 string characters out of 5846347
+ 1265120 words of memory out of 5000000
+ 55241 multiletter control sequences out of 15000+600000
  480871 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,19n,103p,796b,2353s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,19n,103p,796b,2355s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on rapport.pdf (4 pages, 225988 bytes).
+Output written on rapport.pdf (5 pages, 236598 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 84 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
- 42 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 144 PDF objects out of 1000 (max. 8388607)
+ 106 compressed objects within 2 object streams
+ 15 named destinations out of 1000 (max. 500000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
