@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+    \PYG{n}{liste} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n}{decoupage}\PYG{p}{(}\PYG{n+nb}{str}\PYG{p}{)}
+    \PYG{n}{IP} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nd}{@R}
+    \PYG{n}{pour} \PYG{n}{index} \PYG{n}{allant} \PYG{n}{de} \PYG{l+m+mi}{0} \PYG{n}{à} \PYG{n}{longueur}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1} \PYG{p}{:}
+        \PYG{n}{IP} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n}{résoudre}\PYG{p}{(}\PYG{n}{liste}\PYG{p}{[}\PYG{n}{longueur}\PYG{o}{\PYGZhy{}}\PYG{n}{index}\PYG{p}{],} \PYG{n}{IP}\PYG{p}{)}
+    \PYG{n}{retrouver} \PYG{n}{IP}
+\end{Verbatim}

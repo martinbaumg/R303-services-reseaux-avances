@@ -29,13 +29,13 @@
 \begin{titlepage}
 	\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} 
 	\center 
-	\textsc{\LARGE iut de colmar}\\[1.5cm] 
+	\textsc{\LARGE iut de colmar}\\[6.5cm] 
 	\textsc{\Large R303}\\[0.5cm] 
 	\textsc{\large Année 2022-23}\\[0.5cm]
 	\HRule\\[0.75cm]
 	{\huge\bfseries Services réseaux avancés}\\[0.4cm]
 	\HRule\\[1.5cm]
-	\textsc{\large martin baumgaertner}\\[0.5cm] 
+	\textsc{\large martin baumgaertner}\\[6.5cm] 
 
 	\vfill\vfill\vfill
 	{\large\today} 
@@ -108,7 +108,97 @@ Un alias est un raccourcis dans l'URL d'un site web, on peut donc passer de \\ww
 \subsubsection{Petit exercice pour vendredi prochain}
 Comment on gère un cache\\
 
+Un cache est un ensemble de réponses de requêtes faites précédemment 
+sur une page web et qui ont été préalablement recueillies. Une clé 
+d’identification est rattachée à chacune de ces réponses, chaque clé est 
+différente. Dans le cas où une requête correspond à une clé d’identification 
+déjà identifiée, alors il fourni une réponse instantanée sans refaire appel 
+au serveur d’origine. Il facilite donc votre navigation et augmente sa rapidité.
+Le gestionnaire de cache prend en charge les mises à jour ainsi que la 
+suppression des réponses dans le stockage cache. Il est mis à la disposition 
+des utilisateurs dans l’action lancée, avant de répandre la demande vers le 
+serveur.\\
+
 Considérons une liste de trois éléments (x1, x2, x3) montrer que le traitement de la 
 séquence par un algorithme optimal hors-ligne se fait avec un coup de 8.
+
+\newpage
+
+\section{CM 2 - 9 septembre 2022}
+    \subsection{Les Mails}
+    \begin{itemize}
+        \item  MUA : Mail User Agent, c'est le logiciel qui permet à l'utilisateur de consulter ses mails.
+        \item  MTA : Mail Transfer Agent, c'est le logiciel qui permet d'envoyer des mails.
+        \item POP : Post Office Protocol, c'est un protocole qui permet de récupérer les mails sur un serveur.
+        \item IMAP : Internet Message Access Protocol, c'est un protocole qui permet de récupérer les mails sur un serveur.
+        \item MDA : Mail Delivery Agent, c'est un agent de distribution de mail.
+    \end{itemize}
+
+    \subsubsection{Contenu d'un mail}
+    Dans l'en-tête du mail, on retrouve le Return Push, la liste des serveurs 
+    SMTP. Ensuite, il y a un une partie blanche en ASCII puis les données.
+    
+    \subsubsection{Pertes des données}
+    Nous avons aussi des pertes dans un mail. \\
+    Les formats sans pertes de données pour un son, est le FLAC. Et pour les
+    images c'est le PNG. Mais sur le texte il n'y a aucun algorithme de perte
+    de données. \\
+    
+\newpage
+\section{TD 1 - 9 septembre 2022}
+    \subsection{Exercice 1}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.6\textwidth]{img/iteratif.png}
+        \caption{La recherche itérative}
+        \label{fig:iteratif}
+    \end{figure}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.6\textwidth]{img/recursif.png}
+        \caption{La recherche récursive}
+        \label{fig:recursif}
+    \end{figure}
+\newpage
+Dans la version itérative : www.uha.fr/index.html on fait dans l'ordre la 
+recherche de ces éléments : (on va venir demander au résolveur ces informations
+dans l'ordre)
+\begin{itemize}
+    \item 1. \texttt{www} 
+    \item 2. \texttt{uha} 
+    \item 3. \texttt{fr} 
+    \item 4. \texttt{index.html} : ressource
+\end{itemize}
+    \subsubsection{Algorithme itératif (str, @R)}
+
+    \begin{listing}[H]
+        \caption{Algorithme pour la méthode itérative}
+        \label{lst:ite}
+        \begin{minted}{py}
+    liste <- decoupage(str)
+    IP <- @R 
+    pour index allant de 0 à longueur-1 :
+        IP <- résoudre(liste[longueur-index], IP)
+    retrouver IP
+        \end{minted}
+    \end{listing}
+
+    \subsubsection{Algorithme récursif (str, @R)}
+
+    \begin{listing}[H]
+        \caption{Algorithme pour la méthode itérative}
+        \label{lst:recu}
+        \begin{minted}{py}
+    si l(str) = 0
+        retourne IP
+    sinon
+        IP <- str([ln(str)], IP)
+        supprime dernier élément(str)
+            fonction résursive(str,IP)
+        \end{minted}
+    \end{listing}
+
+
+
 
 \end{document}

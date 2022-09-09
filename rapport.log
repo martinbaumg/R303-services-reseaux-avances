@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.15)  6 SEP 2022 10:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.15)  9 SEP 2022 14:59
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -770,7 +770,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--60
 
  []
 
-<img/osi.png, id=59, 1021.8175pt x 766.865pt>
+<img/osi.png, id=103, 1021.8175pt x 766.865pt>
 File: img/osi.png Graphic file (type png)
 <use img/osi.png>
 Package pdftex.def Info: img/osi.png  used on input line 63.
@@ -790,23 +790,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
-[4] (./rapport.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--121
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 142--146
+
+ []
+
+[5]
+<img/iteratif.png, id=126, 585.18625pt x 439.6425pt>
+File: img/iteratif.png Graphic file (type png)
+<use img/iteratif.png>
+Package pdftex.def Info: img/iteratif.png  used on input line 152.
+(pdftex.def)             Requested size: 250.95476pt x 188.53946pt.
+<img/recursif.png, id=128, 585.18625pt x 437.635pt>
+File: img/recursif.png Graphic file (type png)
+<use img/recursif.png>
+Package pdftex.def Info: img/recursif.png  used on input line 158.
+(pdftex.def)             Requested size: 250.95476pt x 187.67854pt.
+ [6 <./img/iteratif.png> <./img/recursif.png>]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 167.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+Package hyperref Info: bookmark level for unknown listing defaults to 0 on input line 175.
+\openout4 = `rapport.pyg'.
+
+ (./_minted-rapport/default.pygstyle) (./_minted-rapport/E49ACB0A1108E0356681C6D02310684F857A87987A6295758909806005013C94.pygtex)
+\openout4 = `rapport.pyg'.
+
+ (./_minted-rapport/356A952D902C588655058D094BAB9A18857A87987A6295758909806005013C94.pygtex) [7] (./rapport.aux)
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: BD4FD79FF99AB5E47AA969BE8F7BB77B;1017.
+(rerunfilecheck)             Checksum: C7D48D37D060E51CAD9E927C81EFC017;2367.
+runsystem(rm rapport.pyg)...executed.
+
  ) 
 Here is how much of TeX's memory you used:
- 37610 strings out of 478268
- 863589 string characters out of 5846347
- 1265120 words of memory out of 5000000
- 55241 multiletter control sequences out of 15000+600000
- 480871 words of font info for 49 fonts, out of 8000000 for 9000
+ 37801 strings out of 478268
+ 867187 string characters out of 5846347
+ 1265531 words of memory out of 5000000
+ 55399 multiletter control sequences out of 15000+600000
+ 481184 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,19n,103p,796b,2355s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on rapport.pdf (5 pages, 236743 bytes).
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on rapport.pdf (8 pages, 983226 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
- 106 compressed objects within 2 object streams
- 15 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 216 PDF objects out of 1000 (max. 8388607)
+ 169 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 500000)
+ 140 words of extra memory for PDF output out of 10000 (max. 10000000)
 
