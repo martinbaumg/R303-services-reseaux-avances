@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+            zone \PYG{l+s+s2}{\PYGZdq{}rt.iutcolmar.uha.fr.\PYGZdq{}} \PYG{o}{\PYGZob{}}
+                \PYG{n+nb}{type} master\PYG{p}{;}
+                notify yes\PYG{p}{;}
+                file \PYG{l+s+s2}{\PYGZdq{}/etc/bind/db.rt.iutcolmar.uha.fr\PYGZdq{}}\PYG{p}{;}
+            \PYG{o}{\PYGZcb{}}\PYG{p}{;}
+\end{Verbatim}

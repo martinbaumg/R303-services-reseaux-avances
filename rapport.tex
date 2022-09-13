@@ -17,9 +17,9 @@
 \rhead{}
 \chead{}
 \rfoot{\thepage}
-\lfoot{Martin Baumgaertner}
+\lfoot{}
 \cfoot{}
-\renewcommand{\footrulewidth}{0.4pt}
+
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\listingscaption}{Code}
 \renewcommand{\listoflistingscaption}{Table des codes}
@@ -198,7 +198,97 @@ dans l'ordre)
         \end{minted}
     \end{listing}
 
+\newpage
+\section{TP 1 - 13 septembre 2022}
+    \subsection{Environnement}
+        \subsubsection{Exercice 1}
+        Les adresses IP des deux machines sont dans le même réseau. 
+        \begin{itemize}
+            \item serveur : 192.168.242.130
+            \item client : 192.168.242.129
+        \end{itemize}
+        Les deux machines arrivent bien à se ping.
 
+    \subsection{Configuration du client}
+        \subsubsection{Exerice 2}
+        Dans la machine client, j'ai modifié l'adresse présente dans le fichier\\ 
+        \textit{/etc/resolv.conf} par l'adresse IP du serveur.
+        \subsubsection{Exercice 3}
+        "Multi on" signifie de dire au résolveur, le système qui traduit les noms 
+        d'hôtes en IP, de renvoyer plusieurs listes si elles sont trouvées dans 
+        le fichier host. 
+
+    \subsection{Configuration du serveur}
+        \subsubsection{Exercice 4}
+        La commande \textit{echo master > etc/hostname} permet de changer le nom
+        de domaine en \texttt{master}
+        \subsubsection{Exercice 5}
+        Pour pouvoir faire en sorte que le serveur ping son propre nom, avec la commande 
+        \textit{ping master}, il faut ajouter dans le fichier \textit{/etc/hosts}
+    
+        la ligne suivante : \texttt{192.168.242.130\footnote{adresse IP du serveur} master}
+        \subsubsection{Exercice 6}
+        \textit{/etc/bind/conf.d/} est le dossier où se trouve les fichiers de 
+        configuration de bind. 
+
+        \newpage
+        \subsubsection{Exercice 7}
+        Tout fonctionne. J'arrive à ping depuis le client en fonction cette commande
+        \textit{ping master.rt.iutcolmar.uha.fr} 
+        Au préalable, j'ai écris les commandes suivantes dans les fichiers suivants :
+
+        \begin{listing}[H]
+            \caption{Fichier : /etc/bind/named.conf.local}
+            \label{lst:named}
+            \begin{minted}{bash}
+            zone "rt.iutcolmar.uha.fr." {
+                type master;
+                notify yes;
+                file "/etc/bind/db.rt.iutcolmar.uha.fr";
+            };
+            \end{minted}
+        \end{listing}
+
+        \begin{listing}[H]
+            \caption{Fichier : /etc/bind/db.rt.iutcolmar.uha.fr}
+            \label{lst:bind}
+            \begin{minted}{bash}
+;
+; BIND data file for broadcast rt.iutcolmar.uha.fr
+;
+$TTL    604800
+@       IN      SOA     master.rt.iutcolmar.uha.fr. root.rt.iutcolmar.uha.fr. (
+        1               ; Serial
+        604800          ; Refresh
+        86400           ; Retry
+        2419200         ; Expire
+        604800 )        ; Negative Cache TTL
+;
+@       IN      NS      master.rt.iutcolmar.uha.fr.
+master  IN      A       192
+            \end{minted}
+        \end{listing}
+
+        Il faut aussi rajouter dans le fichier \textit{/etc/resolv.conf} de la machine
+        client les lignes suivantes :
+
+        \begin{listing}[H]
+            \caption{Fichier : /etc/resolv.conf}
+            \label{lst:resolv}
+            \begin{minted}{bash}
+                    search localdomain
+                    nameserver 192.168.242.130
+            \end{minted}
+        \end{listing}
+
+        \subsubsection{Exercice 8}
+        Pour rajouter un alias qui pointe vers master.rt.iutcolmar.uha.fr, il faut
+        ajouter dans le fichier \textit{/etc/bind/db.rt.iutcolmar.uha.fr} la ligne suivante :\\
+        \texttt{dns1 IN CNAME master.rt.iutcolmar.uha.fr.} tout à la fin. 
+
+    
+
+        
 
 
 \end{document}

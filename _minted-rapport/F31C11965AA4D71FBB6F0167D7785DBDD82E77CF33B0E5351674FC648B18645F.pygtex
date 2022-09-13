@@ -1,0 +1,15 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{p}{;}
+\PYG{p}{;} BIND data file \PYG{k}{for} broadcast rt.iutcolmar.uha.fr
+\PYG{p}{;}
+\PYG{n+nv}{\PYGZdl{}TTL}    \PYG{l+m}{604800}
+@       IN      SOA     master.rt.iutcolmar.uha.fr. root.rt.iutcolmar.uha.fr. \PYG{o}{(}
+        \PYG{l+m}{1}               \PYG{p}{;} Serial
+        \PYG{l+m}{604800}          \PYG{p}{;} Refresh
+        \PYG{l+m}{86400}           \PYG{p}{;} Retry
+        \PYG{l+m}{2419200}         \PYG{p}{;} Expire
+        \PYG{l+m}{604800} \PYG{o}{)}        \PYG{p}{;} Negative Cache TTL
+\PYG{p}{;}
+@       IN      NS      master.rt.iutcolmar.uha.fr.
+master  IN      A       \PYG{l+m}{192}
+\end{Verbatim}

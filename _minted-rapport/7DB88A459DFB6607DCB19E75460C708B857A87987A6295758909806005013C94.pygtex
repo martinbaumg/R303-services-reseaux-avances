@@ -5,5 +5,4 @@
         \PYG{n}{IP} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nb}{str}\PYG{p}{([}\PYG{n}{ln}\PYG{p}{(}\PYG{n+nb}{str}\PYG{p}{)],} \PYG{n}{IP}\PYG{p}{)}
         \PYG{n}{supprime} \PYG{n}{dernier} \PYG{n}{élément}\PYG{p}{(}\PYG{n+nb}{str}\PYG{p}{)}
             \PYG{n}{fonction} \PYG{n}{résursive}\PYG{p}{(}\PYG{n+nb}{str}\PYG{p}{,}\PYG{n}{IP}\PYG{p}{)}
-
 \end{Verbatim}

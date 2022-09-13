@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+                    search localdomain
+                    nameserver \PYG{l+m}{192}.168.242.130
+\end{Verbatim}
