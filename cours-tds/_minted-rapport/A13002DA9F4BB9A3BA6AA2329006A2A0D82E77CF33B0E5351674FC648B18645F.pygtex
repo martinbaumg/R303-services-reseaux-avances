@@ -11,5 +11,5 @@
         \PYG{l+m}{604800} \PYG{o}{)}        \PYG{p}{;} Negative Cache TTL
 \PYG{p}{;}
 @       IN      NS      master.rt.iutcolmar.uha.fr.
-master  IN      A       \PYG{l+m}{192}
+master  IN      A       \PYG{l+m}{192}.168.X.X \PYG{o}{(}adresse IP du serveur\PYG{o}{)}
 \end{Verbatim}

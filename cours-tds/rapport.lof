@@ -1,5 +1,13 @@
 \babel@toc {french}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Le modèle OSI\relax }}{2}{figure.caption.3}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Nombre de site web et d'internautes en fonction des années\relax }}{3}{figure.caption.4}%
-\contentsline {figure}{\numberline {3}{\ignorespaces La recherche itérative\relax }}{6}{figure.caption.5}%
-\contentsline {figure}{\numberline {4}{\ignorespaces La recherche récursive\relax }}{6}{figure.caption.6}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Le modèle OSI\relax }}{3}{figure.caption.3}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Nombre de site web et d'internautes en fonction des années\relax }}{4}{figure.caption.4}%
+\contentsline {figure}{\numberline {3}{\ignorespaces La recherche itérative\relax }}{7}{figure.caption.5}%
+\contentsline {figure}{\numberline {4}{\ignorespaces La recherche récursive\relax }}{7}{figure.caption.6}%
+\contentsline {figure}{\numberline {5}{\ignorespaces fichier db.rt.iutcolmar.uha.fr\relax }}{12}{figure.caption.7}%
+\contentsline {figure}{\numberline {6}{\ignorespaces fichier named.conf.local\relax }}{13}{figure.caption.8}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Fichier /etc/hostname\relax }}{13}{figure.caption.9}%
+\contentsline {figure}{\numberline {8}{\ignorespaces fichier /etc/hosts\relax }}{13}{figure.caption.10}%
+\contentsline {figure}{\numberline {9}{\ignorespaces fichier /etc/resolv.conf\relax }}{13}{figure.caption.11}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Ping du client vers le serveur\relax }}{14}{figure.caption.12}%
+\contentsline {figure}{\numberline {11}{\ignorespaces fichier /etc/bind/db.rt.iutcolmar.uha.fr\relax }}{14}{figure.caption.13}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Commande host -t MX rt.iutcolmar.uha.fr.\relax }}{14}{figure.caption.14}%

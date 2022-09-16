@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.15)  14 SEP 2022 08:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.15)  16 SEP 2022 10:45
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -747,7 +747,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 3.
-)
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.38 ...5.3.5}Exercice 5}{14}{subsubsection.5.3.5}
+                                                  % [1])
 \tf@toc=\write7
 \openout7 = `rapport.toc'.
 
@@ -755,12 +760,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@lof=\write8
 \openout8 = `rapport.lof'.
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.47 \newpage
-              [1]
+ [2]
 Underfull \hbox (badness 10000) in paragraph at lines 50--54
 
  []
@@ -770,17 +770,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--60
 
  []
 
-<../img/osi.png, id=163, 1021.8175pt x 766.865pt>
+<../img/osi.png, id=249, 1021.8175pt x 766.865pt>
 File: ../img/osi.png Graphic file (type png)
 <use ../img/osi.png>
 Package pdftex.def Info: ../img/osi.png  used on input line 63.
 (pdftex.def)             Requested size: 376.42575pt x 282.49527pt.
-[2 <../img/osi.png (PNG copy)>]
+[3 <../img/osi.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 69--75
 
  []
 
-[3]
+[4]
 Overfull \hbox (17.00792pt too wide) in paragraph at lines 105--107
 \T1/cmr/m/n/12 www.iutc078.uha.fr.iut.colmar.fr à www.iutc078.uha.fr. La ver-sion com-plète se nomme
  []
@@ -795,23 +795,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--121
 
  []
 
-[4]
+[5]
 Underfull \hbox (badness 10000) in paragraph at lines 142--146
 
  []
 
-[5]
-<../img/iteratif.png, id=187, 585.18625pt x 439.6425pt>
+[6]
+<../img/iteratif.png, id=273, 585.18625pt x 439.6425pt>
 File: ../img/iteratif.png Graphic file (type png)
 <use ../img/iteratif.png>
 Package pdftex.def Info: ../img/iteratif.png  used on input line 152.
 (pdftex.def)             Requested size: 250.95476pt x 188.53946pt.
-<../img/recursif.png, id=189, 585.18625pt x 437.635pt>
+<../img/recursif.png, id=275, 585.18625pt x 437.635pt>
 File: ../img/recursif.png Graphic file (type png)
 <use ../img/recursif.png>
 Package pdftex.def Info: ../img/recursif.png  used on input line 158.
 (pdftex.def)             Requested size: 250.95476pt x 187.67854pt.
- [6 <../img/iteratif.png> <../img/recursif.png>]
+ [7 <../img/iteratif.png> <../img/recursif.png>]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 167.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
@@ -822,37 +822,80 @@ Package hyperref Info: bookmark level for unknown listing defaults to 0 on input
  (./_minted-rapport/default.pygstyle) (./_minted-rapport/E49ACB0A1108E0356681C6D02310684F857A87987A6295758909806005013C94.pygtex)
 \openout4 = `rapport.pyg'.
 
- (./_minted-rapport/7DB88A459DFB6607DCB19E75460C708B857A87987A6295758909806005013C94.pygtex) [7] [8]
+ (./_minted-rapport/7DB88A459DFB6607DCB19E75460C708B857A87987A6295758909806005013C94.pygtex) [8] [9]
 \openout4 = `rapport.pyg'.
 
  (./_minted-rapport/F138816A5C4C62B94AB29594F23589BED82E77CF33B0E5351674FC648B18645F.pygtex)
 \openout4 = `rapport.pyg'.
 
- (./_minted-rapport/F31C11965AA4D71FBB6F0167D7785DBDD82E77CF33B0E5351674FC648B18645F.pygtex
+ (./_minted-rapport/A13002DA9F4BB9A3BA6AA2329006A2A0D82E77CF33B0E5351674FC648B18645F.pygtex
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 3.
 )
 \openout4 = `rapport.pyg'.
 
- (./_minted-rapport/C48AE90DE22D4C00C168786FDBB47709D82E77CF33B0E5351674FC648B18645F.pygtex) [9] [10] (./rapport.aux)
+ (./_minted-rapport/C48AE90DE22D4C00C168786FDBB47709D82E77CF33B0E5351674FC648B18645F.pygtex) [10] [11]
+<../img/db.png, id=310, 503.8825pt x 182.6825pt>
+File: ../img/db.png Graphic file (type png)
+<use ../img/db.png>
+Package pdftex.def Info: ../img/db.png  used on input line 316.
+(pdftex.def)             Requested size: 376.42575pt x 136.47353pt.
+<../img/named.png, id=311, 501.875pt x 199.74625pt>
+File: ../img/named.png Graphic file (type png)
+<use ../img/named.png>
+Package pdftex.def Info: ../img/named.png  used on input line 322.
+(pdftex.def)             Requested size: 376.42575pt x 149.82455pt.
+<../img/hostname.png, id=312, 430.60875pt x 42.1575pt>
+File: ../img/hostname.png Graphic file (type png)
+<use ../img/hostname.png>
+Package pdftex.def Info: ../img/hostname.png  used on input line 328.
+(pdftex.def)             Requested size: 418.25368pt x 40.94867pt.
+ [12 <../img/db.png>]
+<../img/hosts.png, id=319, 431.6125pt x 134.5025pt>
+File: ../img/hosts.png Graphic file (type png)
+<use ../img/hosts.png>
+Package pdftex.def Info: ../img/hosts.png  used on input line 334.
+(pdftex.def)             Requested size: 376.42575pt x 117.30763pt.
+<../img/resolv.png, id=320, 428.60126pt x 67.25125pt>
+File: ../img/resolv.png Graphic file (type png)
+<use ../img/resolv.png>
+Package pdftex.def Info: ../img/resolv.png  used on input line 342.
+(pdftex.def)             Requested size: 376.42575pt x 59.0653pt.
+<../img/ping.png, id=321, 469.755pt x 103.38625pt>
+File: ../img/ping.png Graphic file (type png)
+<use ../img/ping.png>
+Package pdftex.def Info: ../img/ping.png  used on input line 349.
+(pdftex.def)             Requested size: 376.42575pt x 82.84634pt.
+ [13 <../img/named.png> <../img/hostname.png> <../img/hosts.png> <../img/resolv.png>]
+<../img/smtp-db.png, id=330, 336.25626pt x 28.105pt>
+File: ../img/smtp-db.png Graphic file (type png)
+<use ../img/smtp-db.png>
+Package pdftex.def Info: ../img/smtp-db.png  used on input line 363.
+(pdftex.def)             Requested size: 376.42575pt x 31.46278pt.
+<../img/mx-host.png, id=331, 472.76625pt x 31.11626pt>
+File: ../img/mx-host.png Graphic file (type png)
+<use ../img/mx-host.png>
+Package pdftex.def Info: ../img/mx-host.png  used on input line 374.
+(pdftex.def)             Requested size: 376.42575pt x 24.77574pt.
+ [14 <../img/ping.png> <../img/smtp-db.png> <../img/mx-host.png>] [15] (./rapport.aux)
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: 8E3ABAF951F4722E202BCC7F9302247C;3995.
+(rerunfilecheck)             Checksum: D233678434132870872AAEF34F0919A2;5893.
 runsystem(rm rapport.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 37864 strings out of 478268
- 869509 string characters out of 5846347
- 1265922 words of memory out of 5000000
- 55431 multiletter control sequences out of 15000+600000
+ 37966 strings out of 478268
+ 871335 string characters out of 5846347
+ 1266428 words of memory out of 5000000
+ 55500 multiletter control sequences out of 15000+600000
  483395 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,19n,103p,806b,2355s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on rapport.pdf (11 pages, 1035032 bytes).
+Output written on rapport.pdf (16 pages, 1495468 bytes).
 PDF statistics:
- 315 PDF objects out of 1000 (max. 8388607)
- 258 compressed objects within 3 object streams
- 49 named destinations out of 1000 (max. 500000)
- 236 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 439 PDF objects out of 1000 (max. 8388607)
+ 360 compressed objects within 4 object streams
+ 75 named destinations out of 1000 (max. 500000)
+ 380 words of extra memory for PDF output out of 10000 (max. 10000000)
 

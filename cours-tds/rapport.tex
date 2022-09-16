@@ -265,7 +265,7 @@ $TTL    604800
         604800 )        ; Negative Cache TTL
 ;
 @       IN      NS      master.rt.iutcolmar.uha.fr.
-master  IN      A       192
+master  IN      A       192.168.X.X (adresse IP du serveur)
             \end{minted}
         \end{listing}
 
@@ -287,8 +287,100 @@ master  IN      A       192
         \texttt{dns1 IN CNAME master.rt.iutcolmar.uha.fr.} tout à la fin. 
 
     
+\newpage
+\section{TP 2 - 16 septembre 2022}
+    \subsection{Environnement}
+        \subsubsection{Exercice 1}
+        Les adresses IP des deux machines sont dans le même réseau. 
+        \begin{itemize}
+            \item serveur : 10.211.55.5
+            \item client : 10.211.55.6
+        \end{itemize}
+    
+    \subsection{Configuration du client}
+        \subsubsection{Exercice 2}
+        J'ai donc comme dans le TP 1 remis dans le dossier 
+        \textit{/etc/resolv.conf} l'adresse IP du serveur
 
-        
+    \subsection{Mise en place du serveur}
+        \subsubsection{Exercice 3}
+        J'ai donc repris exactement les mêmes configuration que le TP 1
+        pour configurer le serveur dns. Tout fonctionne, j'arrive même
+        à \textit{ping master}
+
+        Voici au total tous les fichiers que j'ai modifié avec ce que j'ai 
+        écris. Ne pas oublier de supprimer \textbf{network-manager}. 
+        \subsubsection{Sur le serveur}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.9\textwidth]{../img/db.png}
+            \caption{fichier db.rt.iutcolmar.uha.fr}
+            \label{fig:db}
+        \end{figure}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.9\textwidth]{../img/named.png}
+            \caption{fichier named.conf.local}
+            \label{fig:named}
+        \end{figure}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=1\textwidth]{../img/hostname.png}
+            \caption{Fichier /etc/hostname}
+            \label{fig:hostname}
+        \end{figure}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.9\textwidth]{../img/hosts.png}
+            \caption{fichier /etc/hosts}
+            \label{fig:hosts}
+        \end{figure}
+
+        \subsubsection{Sur le client}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.9\textwidth]{../img/resolv.png}
+            \caption{fichier /etc/resolv.conf}
+            \label{fig:resolv}
+        \end{figure}
+        Les pings sont bien fonctionnels entre machines et serveurs : 
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.9\textwidth]{../img/ping.png}
+            \caption{Ping du client vers le serveur}
+            \label{fig:ping}
+        \end{figure}
+      
+        \subsubsection{Exercice 4}
+        Les variables \textit{SOA, NS} et \textit{A} ont déjà été définies
+        comme les captures d'écrans précédentes peuvent le démontrer. 
+
+        \subsubsection{Exercice 5}
+        Pour configurer le service de mails, j'ai décalaré de cette manière
+        les variables :
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.9\textwidth]{../img/smtp-db.png}
+            \caption{fichier /etc/bind/db.rt.iutcolmar.uha.fr}
+            \label{fig:smtp-db}
+        \end{figure}
+
+
+        \subsubsection{Exercice 6}
+        Toutes les commandes sont fonctionnels et en plus, 
+        voici ce que donne la commande \textit{host -t MX rt.iutcolmar.uha.fr.} :
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.9\textwidth]{../img/mx-host.png}
+            \caption{Commande host -t MX rt.iutcolmar.uha.fr.}
+            \label{fig:mx}
+        \end{figure}
+        Tout est donc normal et fonctionnel. 
+        \newpage
+
+    \subsection{Mise en place du serveur SMTP}
+    
+
 
 
 \end{document}
